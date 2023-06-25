@@ -25,7 +25,7 @@ function App() {
         <Nav />
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/country-rest-api" element={<Home />} />
             <Route path={`/${"country"}`} element={<Country />} />
           </Routes>
         </Router>
