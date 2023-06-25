@@ -30,7 +30,7 @@ function Country() {
   return (
     countryData.name && (
       <div className="country-page">
-        <Link className="link" to="/">
+        <Link className="link" to="/country-rest-api">
           {" "}
           <AiOutlineArrowLeft /> Back
         </Link>
