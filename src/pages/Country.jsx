@@ -15,8 +15,7 @@ function info(label, value) {
 
 function Country() {
   const [countryData, setCountryData] = useState({});
-  const { countryName, setCountryName, countryList, setCountryList } =
-    useContext(Context);
+  const { countryName, setCountryName, countryList } = useContext(Context);
 
   useEffect(() => {
     console.log("Country Name: ");
